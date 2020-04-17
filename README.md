@@ -1,4 +1,4 @@
-# booktique
+# MUET BOOKTIQUE
 
 A new Flutter application.
 
