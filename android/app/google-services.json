@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "506708534499",
+    "firebase_url": "https://booktique-1f51d.firebaseio.com",
+    "project_id": "booktique-1f51d",
+    "storage_bucket": "booktique-1f51d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506708534499:android:6ed3fb625dfde2cdb2d1d6",
+        "android_client_info": {
+          "package_name": "com.example.booktique"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "506708534499-evg3i97fun113bl53l95iocj8ksdrn23.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPVpEuq8ytGNNkICw1cvcjryoobhUSHHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "506708534499-evg3i97fun113bl53l95iocj8ksdrn23.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
