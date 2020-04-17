@@ -37,6 +37,9 @@ Note: Make sure you have Flutter and Dart Plugins installed and path variable is
 
 
 - In the 'pubspec.yaml' you can find all the dependensies used in this project.
+
+
+
 ![Alt text](https://github.com/saadrajpoott/MUET-BOOKTIQUE/blob/master/Screenshots/dependencies.png)
 
 #### NOTE:
