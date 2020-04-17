@@ -22,8 +22,8 @@ By Following these simple steps you can get started with this project:
 Note: Make sure you have Flutter and Dart Plugins installed and path variable is set.
 
 - After opening the project you will see list of directories as shown below and in 'lib' directory you will see the base file of this app 'main.dart' in which basic I have set up basic theme of the App.                       (Iam using Android Studio)
-[](https://github.com/saadrajpoott/MUET-BOOKTIQUE/blob/master/Screenshots/listoffolders.png)
+![Alt text](https://github.com/saadrajpoott/MUET-BOOKTIQUE/blob/master/Screenshots/listoffolders.png)
 
 - There are separate directories for different components of the App like Screens, Models, Services, Widgets etc. If you explore all of these directories you will see I have added all the screens of the app in 'Screens' directory, all model classes in 'Models' directory, all background services that are fetching data from Firebase in 'Services' directory and all the reusable widgets in the 'Widgets' directory.
 
-[](https://github.com/saadrajpoott/MUET-BOOKTIQUE/blob/master/Screenshots/listoffolders2.png)
+![Alt text](https://github.com/saadrajpoott/MUET-BOOKTIQUE/blob/master/Screenshots/listoffolders2.png)
