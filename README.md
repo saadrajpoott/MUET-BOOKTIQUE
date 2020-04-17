@@ -7,7 +7,7 @@ Note: MUET BOOKTIQUE name is for MEHRAN UNIVERSITY of ENGINEERING and TECHNOLOGY
 ## HOW USERS WILL USE THIS APP?
 
 This is the first screen that users will see when they open the Application, Home Screen. This shows App Name, Categories, New Arrivals and Library Hours.
-![Alt hey] (https://github.com/saadrajpoott/MUET-BOOKTIQUE/blob/master/Screenshots/home.png)
+![Alt hey](https://github.com/saadrajpoott/MUET-BOOKTIQUE/blob/master/Screenshots/home.png)
 
 
 
