@@ -4,11 +4,9 @@ A mobile application that will help students to access their institution's Libra
 
 Note: MUET BOOKTIQUE name is for MEHRAN UNIVERSITY of ENGINEERING and TECHNOLOGY, any institution can use this with their name and database.
 
-## HOW USERS WILL USE THIS APP?
+## HOW USERS WILL INTERACT WITH THIS APP?
 
-This is the first screen that users will see when they open the Application, Home Screen. This shows App Name, Categories, New Arrivals and Library Hours.
-![Alt hey](https://github.com/saadrajpoott/MUET-BOOKTIQUE/blob/master/Screenshots/home.png)
-
+-[Complete demonstration of user interaction is available here](https://www.youtube.com/SaadRajpoot)
 
 
 
