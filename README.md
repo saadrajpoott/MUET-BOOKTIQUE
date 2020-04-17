@@ -27,3 +27,9 @@ Note: Make sure you have Flutter and Dart Plugins installed and path variable is
 - There are separate directories for different components of the App like Screens, Models, Services, Widgets etc. If you explore all of these directories you will see I have added all the screens of the app in 'Screens' directory, all model classes in 'Models' directory, all background services that are fetching data from Firebase in 'Services' directory and all the reusable widgets in the 'Widgets' directory.
 
 ![Alt text](https://github.com/saadrajpoott/MUET-BOOKTIQUE/blob/master/Screenshots/listoffolders2.png)
+
+- In the 'pubspec.yaml' you can find all the dependensies used in this project.
+![Alt text](https://github.com/saadrajpoott/MUET-BOOKTIQUE/blob/master/Screenshots/dependencies.png)
+
+####NOTE:
+If you face any issues because of dependencies versions while running the code please update versions of these dependencies according to your project configurations. 
