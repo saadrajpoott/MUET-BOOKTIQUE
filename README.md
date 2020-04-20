@@ -4,7 +4,7 @@ A mobile application that will help students to access their institution's Libra
 
 Note: MUET BOOKTIQUE name is for MEHRAN UNIVERSITY of ENGINEERING and TECHNOLOGY, any institution can use this with their name and database.
 
-- [Click here to see complete video demonstration of this Application](https://www.youtube.com/SaadRajpoot)
+- [Click here to see complete video demonstration of this Application](https://www.youtube.com/watch?v=rx0oIlaAwfQ)
 
 
 
