@@ -1,22 +1,25 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:booktique/Models/book.dart';
 
-class DatabaseService{
-
-  CollectionReference _softwareCollection = Firestore.instance.collection('Software Engineering');
-  CollectionReference _bsEnglishCollection = Firestore.instance.collection('BS English');
-  CollectionReference _civilCollection = Firestore.instance.collection('Civil Engineering');
-  CollectionReference _electronicsCollection = Firestore.instance.collection('Electronics Engineering');
-  CollectionReference _textileCollection = Firestore.instance.collection('Textile Engineering');
-  CollectionReference _chemicalCollection = Firestore.instance.collection('Chemical Engineering');
-  CollectionReference _newArrivalsCollection = Firestore.instance.collection('New Arrivals');
-
+class DatabaseService {
+  CollectionReference _softwareCollection =
+      Firestore.instance.collection('Software Engineering');
+  CollectionReference _bsEnglishCollection =
+      Firestore.instance.collection('BS English');
+  CollectionReference _civilCollection =
+      Firestore.instance.collection('Civil Engineering');
+  CollectionReference _electronicsCollection =
+      Firestore.instance.collection('Electronics Engineering');
+  CollectionReference _textileCollection =
+      Firestore.instance.collection('Textile Engineering');
+  CollectionReference _chemicalCollection =
+      Firestore.instance.collection('Chemical Engineering');
+  CollectionReference _newArrivalsCollection =
+      Firestore.instance.collection('New Arrivals');
 
   Future addBook(Book book) async {
-    try{
-      String temp = _civilCollection
-          .document()
-          .documentID;
+    try {
+      String temp = _civilCollection.document().documentID;
       return _civilCollection.document(temp).setData({
         'title': book.title,
         'author': book.author,
@@ -31,15 +34,14 @@ class DatabaseService{
         'dueDate': book.dueDate,
         'edition': book.edition,
       });
-    }catch(e){
+    } catch (e) {
       print(e.toString());
       return null;
     }
   }
 
-
-  List<Book> _booListFromSnapshot(QuerySnapshot snapshot){
-    return snapshot.documents.map((doc){
+  List<Book> _booListFromSnapshot(QuerySnapshot snapshot) {
+    return snapshot.documents.map((doc) {
       return Book(
         title: doc.data['title'] ?? '',
         author: doc.data['author'] ?? '',
@@ -83,5 +85,4 @@ class DatabaseService{
   Stream<List<Book>> get newArrivalsStream {
     return _newArrivalsCollection.snapshots().map(_booListFromSnapshot);
   }
-
 }

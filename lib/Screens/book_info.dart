@@ -16,6 +16,7 @@ class BookInfo extends StatefulWidget {
 
 class _BookInfoState extends State<BookInfo> {
   final Book book;
+
   _BookInfoState({this.book});
 
   @override
@@ -87,7 +88,9 @@ class _BookInfoState extends State<BookInfo> {
                                 color: Colors.black45,
                               ),
                               child: Text(
-                                book.isAvailable == false ? '0 items' : '21 items',
+                                book.isAvailable == false
+                                    ? '0 items'
+                                    : '21 items',
                                 style: TextStyle(
                                   color: Colors.white,
                                 ),
